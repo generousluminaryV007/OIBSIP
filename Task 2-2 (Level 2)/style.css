@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover
+{
+color: rgb(102, 180, 102);
+}
+
+.videostuff{
+    position:absolute;
+    right:0;
+    bottom:0;
+    top:0;
+    z-index:-1;
+    width:100%;
+    background: transparent;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.name{
+    text-align: center;
+    color:white;
+    margin-top:215px;
+    font-size:130px;
+    justify-content: center;
+    font-weight: 700;
+}
+.dollar{
+    font-size: 285px;
+    color: rgb(102, 180, 102);
+}
+
+.socialMedia{
+    color:white;
+    /* margin-top: 130px; */
+}
+
+.socialMedia ul{
+    float:left;
+    margin: 15px;
+    padding: 15px;
+}
+
+.socialMedia ul p{
+    margin-top: 23px;
+}
+
+#kInsta:hover{
+    color:white;
+}
+
+#kFacebook:hover{
+    color:white;
+}
+
+#kSpotify:hover{
+    color:white;
+}
+
+#kYoutube:hover{
+    color:white;
+}
+
+#kTwitter:hover{
+    color:white;
+}
+
+.info{
+    margin-top: 220px;
+    color:whitesmoke;
+    background-color: rgb(34, 31, 31);
+    padding:40px;
+    padding-top: 100px;
+}
+
+.info h2{
+    font-size: 60px;
+    text-align: center;
+}
+
+.startingIntro{
+    padding-top:90px;
+    padding-left:50px;
+    font-size: 25px;
+    font-family: 'Bona Nova', serif;
+    float:left;
+    width: 700px;
+}
+
+.introPic{
+    padding-top:90px;
+    padding-left:200px;
+    width:400px;
+    height:400px;
+    /* float:right; */
+}
+
+.nameDecor{
+    font-size: 30px;
+}
+
+.info2{
+   color:white;
+    background-color: rgb(34, 31, 31);
+    padding:40px;
+}
+
+.videostuff1{
+    padding-top:120px;
+    width:500px;
+    padding-left: 50px;
+    height:500px;
+}
+
+.startingIntro1{
+    padding-top:120px;
+    padding-left:50px;
+    font-size: 25px;
+    font-family: 'Bona Nova', serif;
+    float:left;
+    width: 800px;
+}
+
+.grid{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap:5rem;
+  }
+  .box{
+    color:whitesmoke;
+      padding:5px;
+      margin:2px;
+  }
+
+  .albumPic{
+    width:400px;
+    height:400px;
+    justify-self: center;
+  }
+
+  .album{
+    color:white;
+    background-color: rgb(30, 26, 26);
+    padding:40px;
+    padding-bottom:100px;
+  }
+
+  .album h2{
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .heading{
+    padding-top:100px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bona Nova', serif;
+  }
+
+  .hidden{
+    opacity:0;
+   transform:translateY(150px);
+    transition: all 2s;
+}
+
+.show{
+    opacity:1;
+    transform: translateY(0px);
+}
+
+.styling{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+#sO:hover{
+    color:grey;
+}
+
+#sH:hover{
+    color:rgb(179, 18, 48);
+}
+
+#twT:hover{
+    color:rgb(62, 112, 62);
+}
+
+#sOA:hover{
+    border:8px solid grey;
+    border-radius: 4px;
+}
+
+#sHA:hover{
+    border:8px solid rgb(179, 18, 48);
+    border-radius: 4px;
+}
+
+#tWTA:hover{
+    border:8px solid rgb(62, 112, 62);
+    border-radius: 4px;
+}
